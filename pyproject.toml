@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "django-bookmarks"
+name = "django-bookmark"
 version = "0.1.0"
 description = "Store bookmarks to Django model instances"
 authors = ["Birger Schacht <birger.schacht@oeaw.ac.at>"]
