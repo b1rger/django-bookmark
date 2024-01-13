@@ -6,9 +6,6 @@ name: Django Test
 on: 
   pull_request:
 
-env:
-  DJANGO_SETTINGS_MODULE: tests.settings_ci
-
 jobs:
   setup:
     runs-on: ubuntu-latest
