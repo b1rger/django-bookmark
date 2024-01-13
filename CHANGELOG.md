@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/b1rger/django-bookmarks/compare/v0.1.0...v0.2.0) (2024-01-13)
+
+
+### Features
+
+* rename project ([26ab085](https://github.com/b1rger/django-bookmarks/commit/26ab08529a94a7746d7b4d5c373bdac1fca28493))
+
 ## 0.1.0 (2024-01-13)
 
 
