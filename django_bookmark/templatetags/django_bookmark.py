@@ -1,13 +1,13 @@
 from django import template
 from django.contrib.contenttypes.models import ContentType
 
-from django_bookmarks.models import Bookmark
+from django_bookmark.models import Bookmark
 
 
 register = template.Library()
 
 
-@register.inclusion_tag("django_bookmarks/toggle_bookmark.html", takes_context=True)
+@register.inclusion_tag("django_bookmark/toggle_bookmark.html", takes_context=True)
 def toggle_bookmark(context, model):
     content_type = ContentType.objects.get_for_model(model)
     context["content_type_id"] = content_type.id

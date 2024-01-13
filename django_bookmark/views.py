@@ -4,11 +4,11 @@ from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
 from django.shortcuts import redirect
 
-from django_bookmarks.models import Bookmark
+from django_bookmark.models import Bookmark
 
 
 class ToggleBookmark(LoginRequiredMixin, TemplateView):
-    template_name = "django_bookmarks/toggle_bookmark.html"
+    template_name = "django_bookmark/toggle_bookmark.html"
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)

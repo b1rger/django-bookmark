@@ -8,5 +8,5 @@ urlpatterns = [
         views.ToggleBookmark.as_view(),
         name="togglebookmark",
     ),
-    path("", views.Bookmarks.as_view(), name="bookmarks"),
+    path("bookmarks/", views.Bookmarks.as_view(), name="bookmarks"),
 ]
